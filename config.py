@@ -1,11 +1,11 @@
 from os import getenv
 
 class Config(object):
-      API_HASH = getenv("API_HASH", "a1a06a18eb9153e9dbd447cfd5da2457")
-      API_ID = int(getenv("API_ID", "20389440"))
+      API_HASH = getenv("API_HASH", "a107212f94452ca9e72bc987999b2d97")
+      API_ID = int(getenv("API_ID", "22854413"))
       AS_COPY = True if getenv("AS_COPY", True) == "`{file_name}`" else True
-      BOT_TOKEN = getenv("BOT_TOKEN", "6564513574:AAGDqUaEmeu0m4DjLDetNc4nooVTWYT7Fzo")
-      CHANNEL = list(x for x in getenv("CHANNEL_ID", "-1001722984461:-1001623633000").replace("\n", " ").split(' '))
+      BOT_TOKEN = getenv("BOT_TOKEN", "7713074455:AAGJVYmJ5L5vZ44mrUPjMaygHGeizjyYh6A")
+      CHANNEL = list(x for x in getenv("CHANNEL_ID", "-1002465837417:-1002408525692:-1002428681605").replace("\n", " ").split(' '))
 
 
 # Don't Remove Credit @VJ_Botz
